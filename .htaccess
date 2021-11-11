@@ -1,3 +1,4 @@
+<IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{HTTP_USER_AGENT} "(?:Mozilla/\d+\.\d+ )?Jorgee" [OR]
 RewriteCond %{HTTP_USER_AGENT} "12soso" [OR]
@@ -1876,3 +1877,4 @@ RewriteCond %{HTTP_USER_AGENT} "Zyborg" [OR]
 RewriteCond %{HTTP_USER_AGENT} "ZyBorg" [OR]
 RewriteCond %{HTTP_USER_AGENT} "Zyte"
 RewriteRule .* - [F]
+</IfModule>
